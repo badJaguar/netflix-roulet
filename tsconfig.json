@@ -1,0 +1,50 @@
+{
+	"compilerOptions": {
+		"lib": [
+			"es6",
+			"dom",
+			"esnext"
+		],
+		"rootDir": "src",
+		"allowSyntheticDefaultImports": true,
+		"declarationDir": "./lib",
+		"declaration": true,
+		"composite": true,
+		"noEmit": false,
+		"moduleResolution": "node",
+		"noImplicitReturns": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"esModuleInterop": true,
+		"allowJs": false,
+		"importHelpers": true,
+		"outDir": "./dist/",
+		"sourceMap": true,
+		"strict": true,
+		"noImplicitAny": true,
+		"module": "commonjs",
+		"target": "es6",
+		"jsx": "react",
+		"types": [
+			"node",
+			"lodash",
+			"express",
+			"jest",
+			"enzyme"
+		],
+		"typeRoots": [
+			"./typings"
+		]
+	},
+	"include": [
+		"src/**/*",
+		"enzyme.config.js",
+		"src/setupEnzyme.ts"
+	],
+	"exclude": [
+		"node_modules",
+		"**/*.spec.ts",
+		"build",
+		"**/*.test.tsx"
+	]
+}

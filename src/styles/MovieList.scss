@@ -1,0 +1,59 @@
+@import './colors.scss';
+
+.movieList-Item {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    margin: auto;
+    top: 15px;
+    padding-bottom: 50px;
+    width: 95%;
+    position: relative;
+    background-color: $black;
+    align-items: center;
+}
+
+.movieItem {
+    padding: 15px;
+
+    .title {
+        color: $white;
+        height: 22px;
+        width: 232px;
+        opacity: 0.7;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+
+    .year {
+        box-sizing: border-box;
+        opacity: 0.7;
+        padding: 3px 6px 3px 6px;
+        color: $white;
+        border: 1px solid $light-gray;
+        border-radius: 4px;
+    }
+
+    .movieGenre {
+        opacity: 0.5;
+        color: $white;
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 18px;
+    }
+}
+
+.imgMovie {
+    max-width: 322px;
+    display: flex;
+}
+
+.movieDescription {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

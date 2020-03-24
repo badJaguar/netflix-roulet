@@ -1,0 +1,73 @@
+@import './colors.scss';
+
+.movieListItem {
+    color: $white;
+    position: absolute;
+    display: flex;
+    padding: 90px 0px 7px 0px;
+    margin: 0 0 0 106px;
+    top: 0;
+}
+
+.imgMovieItem {
+    max-width: 217px;
+    display: flex;
+}
+
+.movieListItem-title {
+    opacity: 0.8;
+    color: #FFFFFF;
+    font-size: 52px;
+    line-height: 63px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    display: inline-flex;
+}
+
+.movieListItem-content {
+    margin-left: 60px;
+}
+
+.movieListItem-rating {
+    box-sizing: border-box;
+    height: 69px;
+    width: 69px;
+    border-radius: 34px;
+    border: 1px solid #FFFFFF;
+    opacity: 0.8;
+    margin-left: 14px;
+    text-align: center;
+
+    .movieListItem-rating-text {
+        color: $green;
+        font-size: 30px;
+    }
+}
+
+.movieListItem-tagline {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.movieListItem-dateOfRelease {
+    color: $red;
+    font-size: 26px;
+    line-height: 32px;
+    margin-top: 18px;
+    margin-bottom: 8px;
+}
+
+.movieListItem-description {
+    opacity: 0.9;
+    font-family: "Open Sans";
+    font-size: 17px;
+	line-height: 22px;
+	max-width: 580px;
+}
+
+.searchIcon {
+	position: fixed;
+    right: 24px;
+    top: 20px;
+}

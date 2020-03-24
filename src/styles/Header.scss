@@ -1,0 +1,19 @@
+@import './colors.scss';
+
+.header {
+    height: 60vh;
+    width: 100%;
+
+    &>img {
+        width: 100%;
+        height: inherit;
+        filter: blur(2px);
+    }
+}
+
+.logo {
+    position: absolute;
+    z-index: 1;
+    margin-left: 60px;
+    margin-top: 20px;
+}

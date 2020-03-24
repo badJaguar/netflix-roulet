@@ -1,0 +1,58 @@
+@import './colors.scss';
+
+.searchFilter {
+    color: $white;
+    display: inline-flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: baseline;
+    margin-top: 2vh;
+}
+
+.filterButtonGroup {
+    width: 4vh;
+    display: flex;
+
+}
+
+.switchField input {
+    position: absolute !important;
+    clip: rect(0, 0, 0, 0);
+    height: 1px;
+    width: 1px;
+    border: 0;
+    overflow: hidden;
+}
+
+.switchField label {
+    background-color: #e4e4e4;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    line-height: 1;
+    text-align: center;
+    padding: 8px 16px;
+    margin-right: -1px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.switchField label:hover {
+    cursor: pointer;
+}
+
+.switchField input:checked+label {
+    background-color: $red;
+    box-shadow: none;
+}
+
+.switchField label:first-of-type {
+    border-radius: 4px 0 0 4px;
+    background-color: rgba(66, 66, 66, 0.68);
+    color: $white;
+}
+
+.switchField label:last-of-type {
+    border-radius: 0 4px 4px 0;
+    background-color: rgba(66, 66, 66, 0.68);
+    color: $white;
+
+}

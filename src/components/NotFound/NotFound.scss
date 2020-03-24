@@ -1,0 +1,24 @@
+@import '../../styles/colors.scss';
+
+.not-found{
+	position: absolute;
+    left: 26%;
+    top: 21%;
+    color: $white;
+    font-size: 50px;
+    z-index: 2;
+}
+.overlay{
+	position: fixed;
+    background: black;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    top: 0;
+	filter: opacity(0.8);
+	overflow: hidden;
+}
+
+.to-home-link{
+color: $red;
+}
